@@ -3,9 +3,9 @@ import { getYear } from 'date-fns';
 import { url } from '@/utils/url';
 
 const config: Config = {
-  title: '银河渡舟',
-  description: '浊以静之徐清，安以动之徐生。',
-  author: 'Wider',
+  title: '喵落阁',
+  description: '奇迹只能一时，命运总是漫长。',
+  author: '克喵爱吃卤面',
   favicon: url('favicon.ico'),
   navbar: {
     logo: import('@/custom/NavLogo.astro'),
@@ -63,15 +63,15 @@ const config: Config = {
   },
   hero: {
     background: import('src/assets/hero-bg.jpg'),
-    description: '欢迎来到银河渡舟的记事簿，看看最近我在折腾啥吧。',
+    description: '欢迎来到克喵爱吃卤面的小筑，看看最近我在折腾啥吧。',
     title: import('@/custom/HeroLogo.astro'),
   },
   sidebar: {
     widgets: [
       {
         name: 'profile',
-        author: '银河渡舟',
-        description: '浊以静之徐清，安以动之徐生',
+        author: '克喵爱吃卤面',
+        description: '奇迹只能一时，命运总是漫长。',
         avatar: import('src/assets/avatar.png'),
         background: import('src/assets/profile-bg.jpg'),
         socialIcons: [
@@ -79,31 +79,37 @@ const config: Config = {
             label: 'github',
             color: '#7c8690',
             icon: 'tabler:brand-github',
-            url: 'https://github.com/izmttk'
+            url: 'https://github.com/Kemeow815'
           },
           {
             label: 'bilibili',
             color: '#fc87b2',
             icon: 'tabler:brand-bilibili',
-            url: 'https://space.bilibili.com/293591084'
+            url: 'https://space.bilibili.com/3546643173477234'
           },
           {
             label: 'netease music',
             color: '#ff4e6a',
             icon: 'tabler:brand-netease-music',
-            url: 'https://music.163.com/user/390631653'
+            url: 'https://music.163.com/user/1725716511'
           },
           {
             label: 'twitter',
             color: '#1d9bf0',
             icon: 'tabler:brand-twitter',
-            url: 'https://twitter.com/vviderx'
+            url: 'https://twitter.com/kemiaosw'
           },
           {
             label: 'mail',
             color: '#7562c7',
             icon: 'tabler:mail',
-            url: 'mailto:widergao@gmail.com'
+            url: 'mailto:kemiaofx@163.com'
+          },
+          {
+            label: 'telegram',
+            color: '#179cf0',
+            icon: 'tabler:brand-telegram',
+            url: 'https://t.me/KemiaoJun'
           }
         ],
       },
@@ -145,13 +151,13 @@ const config: Config = {
   comment: {
     provider: 'giscus',
     options: {
-      repo: 'izmttk/izmttk.github.io',
-      repoId: 'R_kgDOJIxtIQ',
-      category: 'General',
-      categoryId: 'DIC_kwDOJIxtIc4CU1cl',
-      mapping: 'pathname',
+      repo: 'Kemeow815/astro-mecure-kemiao',
+      repoId: 'R_kgDOOgFbug',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOOgFbus4Cpfgc',
+      mapping: 'title',
       reactionsEnabled: '1',
-      emitMetadata: '0',
+      emitMetadata: '1',
       inputPosition: 'top',
       lang: 'zh-CN',
     },
@@ -180,10 +186,10 @@ const config: Config = {
       { label: '关于', url: url('about')},
       { label: '归档', url: url('archive')},
       { label: '友情链接', url: url('friends')},
-      { label: 'Github', url: 'https://github.com/izmttk'},
+      { label: 'Github', url: 'https://github.com/Kemeow815'},
     ],
     declarations: [
-      `Copyright © ${getYear(new Date())} 银河渡舟 All Rights Reserved.`,
+      `Copyright © ${getYear(new Date())} 克喵爱吃卤面 All Rights Reserved.`,
     ],
     generator: true,
     rss: true,
