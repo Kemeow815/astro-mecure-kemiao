@@ -196,9 +196,9 @@ const config: Config = {
     sitemap: true,
   },
   algolia: {
-    appId: "1IIXBX6FGH",
-    apiKey: "91aa4234096f4963e33d53262340b1ec",
-    indexName: "wider",
+    appId: "VNIWHBMDIM",
+    apiKey: "435137a56e32d5972d5302e091a5107e",
+    indexName: "kemiao",
   }
 }
 
