@@ -27,7 +27,7 @@ category: [技术分享]
 >
 > *替换：$1*
 
-`注意："$1"后面要加一个空格(英文)。`
+注意："$1"后面要加一个空格(英文)。
 
 ![](https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505151346330.jpg)
 
