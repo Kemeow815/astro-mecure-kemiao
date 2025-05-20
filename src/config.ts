@@ -72,7 +72,7 @@ const config: Config = {
         name: 'profile',
         author: '克喵爱吃卤面',
         description: '奇迹只能一时，命运总是漫长。',
-        avatar: import('src/assets/avatar.png'),
+        avatar: import('src/assets/kemiao.jpg'),
         background: import('src/assets/profile-bg.jpg'),
         socialIcons: [
           {
